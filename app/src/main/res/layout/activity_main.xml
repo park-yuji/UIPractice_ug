@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:gravity="center">
             <ImageView
-                android:layout_width="120dp"
+                android:layout_width="170dp"
                 android:layout_height="120dp"
                 android:src="@drawable/renosoft_logo"
                 android:scaleType="centerInside"/>
@@ -24,27 +24,31 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
+        android:textSize="17dp"
+        android:textStyle="bold"
         android:text="아이디" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="이메일 양식으로 입력"
+        android:hint="이메일 양식"
         android:inputType="textEmailAddress"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
+        android:textSize="17dp"
+        android:textStyle="bold"
         android:text="비밀번호" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="8글자 이상 입력"
+        android:hint="비밀번호 입력"
         android:inputType="textPassword"/>
 
-    <TextView
+    <!--<TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -77,14 +81,13 @@
             android:layout_height="wrap_content"
             android:enabled="false"
             android:text="공개안함"/>
-    </RadioGroup>
+    </RadioGroup>-->
 
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:checked="false"
-        android:visibility="gone"
-        android:text="이용약관 동의"/>
+        android:text="자동 로그인"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -101,7 +104,11 @@
             android:layout_width="0dp"
             android:layout_weight="4"
             android:layout_height="wrap_content"
-            android:text="취소"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:text="회원가입"
+            android:textColor="#7a5a01"
+            android:backgroundTint="#ffbe0a"
             />
         <TextView
             android:layout_width="0dp"
@@ -112,7 +119,11 @@
             android:layout_width="0dp"
             android:layout_weight="4"
             android:layout_height="wrap_content"
-            android:text="확인"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:text="로그인"
+            android:textColor="#7a5a01"
+            android:backgroundTint="#ffbe0a"
             />
 
     </LinearLayout>
