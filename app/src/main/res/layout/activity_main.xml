@@ -76,10 +76,6 @@
             android:textColor="#7a5a01"
             android:backgroundTint="#ffbe0a"
             />
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"/>
 
         <Button
             android:layout_width="0dp"
@@ -90,6 +86,7 @@
             android:text="로그인"
             android:textColor="#7a5a01"
             android:backgroundTint="#ffbe0a"
+            android:layout_marginLeft="20dp"
             />
 
     </LinearLayout>
